@@ -26,6 +26,7 @@ public class Main {
         shapes.forEach(s -> System.out.println(s.calculateArea()));
 
         System.out.println(getArea(t));
+        //  kjsjfkdsf
 
     }
 
