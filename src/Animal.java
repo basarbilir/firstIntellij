@@ -2,7 +2,7 @@ public abstract class Animal {
     private String name;
     private String owner;
 
-    //public Animal () {};
+    public Animal () {};
 
     public Animal (String name) {
         this.name = name;

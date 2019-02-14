@@ -6,9 +6,14 @@ public class Cat extends Animal{
         super(name);
     }
 
-    public Cat (String name, String owner) {
-        super(name, owner);
+    public  Cat (String name, String owner) {
+        this.name = name;
+        this.owner = owner;
     }
+
+    //public Cat (String name, String owner) {
+    //    super(name, owner);
+    //}
     @Override
     public String shout() {
         return "miaww miaww";
