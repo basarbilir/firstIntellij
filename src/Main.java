@@ -26,7 +26,17 @@ public class Main {
         shapes.forEach(s -> System.out.println(s.calculateArea()));
 
         System.out.println(getArea(t));
-        //  kjsjfkdsf
+
+        Dog Mike = new Dog ("Mike");
+        System.out.println(Mike.shout());
+
+        Cat Pichu = new Cat ("Pichu");
+        System.out.println(Pichu.shout());
+
+        Cat Boncuk = new Cat ("Pichu", "Basar");
+        System.out.println(Boncuk.callOwner());
+        System.out.println(Boncuk.shoutOwnName());
+        System.out.println(Boncuk.callOwnerName());
 
     }
 
